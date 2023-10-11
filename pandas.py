@@ -1,6 +1,6 @@
 import pandas as pd
 import streamlit as st
-import matplotlib.pyplot as plt 
+
 data = pd.read_csv('ventas_vehiculos .csv')
 
 st.header("Tabla antes de la limpieza de datos")
